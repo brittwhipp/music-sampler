@@ -1,0 +1,53 @@
+#css {
+  background: #0A1529;
+  padding: 50px;
+}
+#songButton {
+  font-size: 90%;
+  margin-left: 50px;
+}
+
+a {color: #3C85FF;}
+a:hover {color: #3C85FF;}
+
+#vs {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 70%;
+  font-size: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+    background: #0A1529;
+    color: #fff;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 150%;
+    margin: 0;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+img {
+  padding: 20px;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  #css {width: 100%;}
+  #songButton {width: auto;}
+  body {font-size: 110%;}
+  img {display: block;}
+  img {max-width: 90%;}
+  img {padding-right: 30px;}
+  h1 {font-size: 130%;}
+  h1 {padding-right: 30px;}
+  p {padding-right: 30px;}
+}
